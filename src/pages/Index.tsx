@@ -154,8 +154,10 @@ const Index = () => {
                   VK
                 </a>
               </Button>
-              <Button className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700">
-                Вступить
+              <Button className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700" asChild>
+                <a href="https://будьвдвижении.рф" target="_blank" rel="noopener noreferrer">
+                  Вступить
+                </a>
               </Button>
             </div>
           </div>
