@@ -273,6 +273,184 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-16 px-4 bg-white">
+        <div className="container mx-auto max-w-6xl">
+          <h3 className="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+            Календарь мероприятий
+          </h3>
+          <p className="text-center text-gray-600 mb-12 text-lg">
+            Актуальные события и активности Движения Первых
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Card className="hover:shadow-xl transition-all duration-300 border-2 border-purple-100 hover:border-purple-300">
+              <CardHeader>
+                <div className="flex items-start justify-between mb-2">
+                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center">
+                    <Icon name="Calendar" className="text-white" size={28} />
+                  </div>
+                  <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-semibold">
+                    Скоро
+                  </span>
+                </div>
+                <CardTitle className="text-xl">День первых открытий</CardTitle>
+                <CardDescription className="text-base text-gray-900">
+                  <Icon name="Clock" size={16} className="inline mr-1" />
+                  15 февраля 2026, 10:00
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 mb-4">
+                  Масштабное мероприятие для всех участников движения. Презентация новых проектов и направлений.
+                </p>
+                <Button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700">
+                  Подробнее
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-xl transition-all duration-300 border-2 border-blue-100 hover:border-blue-300">
+              <CardHeader>
+                <div className="flex items-start justify-between mb-2">
+                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center">
+                    <Icon name="Microscope" className="text-white" size={28} />
+                  </div>
+                  <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">
+                    Скоро
+                  </span>
+                </div>
+                <CardTitle className="text-xl">Научный форум</CardTitle>
+                <CardDescription className="text-base text-gray-900">
+                  <Icon name="Clock" size={16} className="inline mr-1" />
+                  20-22 февраля 2026
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 mb-4">
+                  Трёхдневная научная конференция с мастер-классами от ведущих учёных и исследователей.
+                </p>
+                <Button className="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700">
+                  Подробнее
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-xl transition-all duration-300 border-2 border-red-100 hover:border-red-300">
+              <CardHeader>
+                <div className="flex items-start justify-between mb-2">
+                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center">
+                    <Icon name="Heart" className="text-white" size={28} />
+                  </div>
+                  <span className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-semibold">
+                    Регистрация
+                  </span>
+                </div>
+                <CardTitle className="text-xl">Весенняя неделя добра</CardTitle>
+                <CardDescription className="text-base text-gray-900">
+                  <Icon name="Clock" size={16} className="inline mr-1" />
+                  1-7 марта 2026
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 mb-4">
+                  Всероссийская акция волонтёров. Помощь приютам, уборка территорий, помощь пожилым людям.
+                </p>
+                <Button className="w-full bg-gradient-to-r from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700">
+                  Подробнее
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-xl transition-all duration-300 border-2 border-yellow-100 hover:border-yellow-300">
+              <CardHeader>
+                <div className="flex items-start justify-between mb-2">
+                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-yellow-500 to-yellow-600 flex items-center justify-center">
+                    <Icon name="Trophy" className="text-white" size={28} />
+                  </div>
+                  <span className="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm font-semibold">
+                    Регистрация
+                  </span>
+                </div>
+                <CardTitle className="text-xl">Спортивные игры Первых</CardTitle>
+                <CardDescription className="text-base text-gray-900">
+                  <Icon name="Clock" size={16} className="inline mr-1" />
+                  15-17 марта 2026
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 mb-4">
+                  Региональные соревнования по различным видам спорта. Футбол, баскетбол, лёгкая атлетика.
+                </p>
+                <Button className="w-full bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-700 hover:to-orange-700">
+                  Подробнее
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-xl transition-all duration-300 border-2 border-pink-100 hover:border-pink-300">
+              <CardHeader>
+                <div className="flex items-start justify-between mb-2">
+                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-pink-500 to-pink-600 flex items-center justify-center">
+                    <Icon name="Palette" className="text-white" size={28} />
+                  </div>
+                  <span className="px-3 py-1 bg-pink-100 text-pink-700 rounded-full text-sm font-semibold">
+                    Приём заявок
+                  </span>
+                </div>
+                <CardTitle className="text-xl">Фестиваль творчества</CardTitle>
+                <CardDescription className="text-base text-gray-900">
+                  <Icon name="Clock" size={16} className="inline mr-1" />
+                  25-27 марта 2026
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 mb-4">
+                  Выставка работ участников направления «Культура и искусство». Танцы, музыка, театр, живопись.
+                </p>
+                <Button className="w-full bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700">
+                  Подробнее
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-xl transition-all duration-300 border-2 border-emerald-100 hover:border-emerald-300">
+              <CardHeader>
+                <div className="flex items-start justify-between mb-2">
+                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center">
+                    <Icon name="Leaf" className="text-white" size={28} />
+                  </div>
+                  <span className="px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full text-sm font-semibold">
+                    Регистрация
+                  </span>
+                </div>
+                <CardTitle className="text-xl">Экологический марафон</CardTitle>
+                <CardDescription className="text-base text-gray-900">
+                  <Icon name="Clock" size={16} className="inline mr-1" />
+                  1-10 апреля 2026
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700 mb-4">
+                  Десятидневная акция по защите природы. Посадка деревьев, уборка берегов рек, раздельный сбор.
+                </p>
+                <Button className="w-full bg-gradient-to-r from-emerald-600 to-green-600 hover:from-emerald-700 hover:to-green-700">
+                  Подробнее
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="text-center mt-12">
+            <Button size="lg" variant="outline" className="text-purple-600 border-purple-600 hover:bg-purple-50 font-semibold" asChild>
+              <a href="https://vk.com/club229068743" target="_blank" rel="noopener noreferrer">
+                <Icon name="Calendar" size={20} className="mr-2" />
+                Полный календарь мероприятий
+              </a>
+            </Button>
+          </div>
+        </div>
+      </section>
+
       <section className="py-16 px-4 bg-gradient-to-br from-purple-600 via-pink-600 to-orange-600 text-white">
         <div className="container mx-auto max-w-4xl text-center">
           <h3 className="text-4xl font-bold mb-6">Присоединяйтесь к нам!</h3>
