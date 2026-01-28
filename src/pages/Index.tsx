@@ -222,7 +222,7 @@ const Index = () => {
                 <CardContent>
                   <Button
                     variant="outline"
-                    className="w-full group-hover:bg-purple-600 group-hover:text-white group-hover:border-purple-600 transition-all"
+                    className="w-full group-hover:bg-purple-600 group-hover:text-white group-hover:border-purple-600 transition-all text-gray-900 font-semibold"
                     asChild
                   >
                     <a href={direction.link} target="_blank" rel="noopener noreferrer">
