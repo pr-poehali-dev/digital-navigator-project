@@ -286,13 +286,13 @@ const Index = () => {
                 Зарегистрироваться
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white/20 text-lg px-8" asChild>
+            <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 text-lg px-8 font-bold" asChild>
               <a href="https://projects.pervye.ru" target="_blank" rel="noopener noreferrer">
                 <Icon name="Sparkles" size={20} className="mr-2" />
                 Проекты
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white/20 text-lg px-8" asChild>
+            <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 text-lg px-8 font-bold" asChild>
               <a href="https://dobro.ru" target="_blank" rel="noopener noreferrer">
                 <Icon name="Heart" size={20} className="mr-2" />
                 Добрые дела
