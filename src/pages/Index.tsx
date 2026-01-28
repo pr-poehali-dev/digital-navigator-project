@@ -215,7 +215,7 @@ const Index = () => {
                   <CardTitle className="text-xl font-bold group-hover:text-purple-600 transition-colors">
                     {direction.title}
                   </CardTitle>
-                  <CardDescription className="text-base font-semibold text-gray-700">
+                  <CardDescription className="text-base font-semibold text-gray-900">
                     «{direction.slogan}»
                   </CardDescription>
                 </CardHeader>
